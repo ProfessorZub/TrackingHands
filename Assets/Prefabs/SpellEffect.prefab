@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6385211624210496036}
   - component: {fileID: -5641795749033918867}
+  - component: {fileID: -1420538217330587624}
   m_Layer: 0
   m_Name: SpellEffect
   m_TagString: Untagged
@@ -83,8 +84,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.002696991
+        value: 0.03012085
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -131,3 +132,16 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &-1420538217330587624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6687243797022729270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc4434deb86b0842a920220bba4995e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 0}
