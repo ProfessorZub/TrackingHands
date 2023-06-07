@@ -4,7 +4,6 @@ using UnityEngine;
 public class SpellEffect : MonoBehaviour
 {
     LineRenderer lineRenderer;
-    // public int steps;
 
     public HandTracking hand;
 
@@ -25,8 +24,10 @@ public class SpellEffect : MonoBehaviour
         // Get forward direction of the player's headset
         Vector3 forward = OVRManager.instance.transform.forward;
 
-        // Offset the position 1 meter forward from the midpoint
-        Vector3 offset = forward * 1f;
+        // Offset the position d meters forward from the midpoint
+        float d = 1;
+        Vector3 offset = forward * d;
+
 
         // Update GameObject's position
         transform.position = pos + offset;
@@ -44,7 +45,7 @@ public class SpellEffect : MonoBehaviour
         }
         else if (points == 1)
         {
-            // Draw a single point or a small circle
+            // Draw a small dash
             lineRenderer.positionCount = 2;
             lineRenderer.SetPosition(0, new Vector3(0, 0, 0));
             lineRenderer.SetPosition(1, new Vector3(0.1f, 0, 0));
