@@ -30,7 +30,7 @@ Open and close your hands several times as soon as the app loads to calibrate yo
 
 This repository shows the final project you would end up with by following the attached guide. It is highly recommended to follow the guide to develop your own skills.
 
-![Magic Spells](./TrackingHands-13.jpg)
+![Guide](./VR-Step-by-Step Guide.pdf)
 
 ## License
 
