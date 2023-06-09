@@ -28,9 +28,9 @@ Open and close your hands several times as soon as the app loads to calibrate yo
 
 ## Step-by-step Guide to make this project from scratch
 
-This repository shows the final project you would end up with by following the attached guide. It is highly recommended to follow the guide to develop your own skills.
+This repository contains the final project that can be achieved by following the included guide. It is strongly recommended to follow the guide in order to develop your own skills.
 
-[Guide](./VR-Step-by-Step Guide.pdf)
+[Step-by-Step Guide](./VR-Step-by-Step%20Guide.pdf)
 
 ## License
 
