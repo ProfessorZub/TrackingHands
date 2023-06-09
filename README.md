@@ -26,11 +26,11 @@ Ensure that your Oculus Quest 2 device is connected to a USB 3.0 (or higher) por
 
 Open and close your hands several times as soon as the app loads to calibrate your hands. Once calibrated, you should see n-pointed stars floating in front of your hands. Move and rotate your hands to see how the shapes follow your movements. Experiment with different hand gestures and compare the hand sum logged in the HUD with the number of points in your stars.
 
-## Step=by-step Guide to make this project from scratch
+## Step-by-step Guide to make this project from scratch
 
 This repository shows the final project you would end up with by following the attached guide. It is highly recommended to follow the guide to develop your own skills.
 
-![Guide](./VR-Step-by-Step Guide.pdf)
+[Guide](./VR-Step-by-Step Guide.pdf)
 
 ## License
 
